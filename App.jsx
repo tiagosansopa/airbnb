@@ -385,7 +385,8 @@ class DownBar extends React.Component{
 		 height: '413px',
 		 width: '100%',
          border: '1px solid #F8F8F8',
-		 backgroundColor: 'rgb(249,249,249)',
+		 backgroundSize: 'contain',
+         backgroundImage: 'url(d.png)', 
 		 border: '2px solid #F8F8F8',
 		 display:'inline-block'
 	 }
@@ -394,8 +395,7 @@ class DownBar extends React.Component{
 		 height: '72px',
 		 width: '96px',
 		 align:'left',
-		 backgroundSize: 'contain',
-         backgroundImage: 'url(' + this.props.url + ')' 		 
+		 		 
 	 }
 	 
 	 const contenedor = {
@@ -420,7 +420,7 @@ class DownBar extends React.Component{
 	 
 	 return (
 		<div style={style}> 
-			DOWNBARRRRRRRRRRR
+			
 		</div>
 		);
 	}
